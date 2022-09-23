@@ -6,12 +6,11 @@ exec 2>&1
 echo "unpacking tomcat"
 tar xzf /files/tomcat.tgz -C /tmp
 
-TOMCAT_VERSION=9.0.54
-echo "moving tomcat from /tmp/apache-tomcat-${TOMCAT_VERSION}  to /tomca"
-mv /tmp/apache-tomcat-${TOMCAT_VERSION} /tomcat
+echo "moving tomcat from /tmp/apache-tomcat-*  to /tomcat"
+mv /tmp/apache-tomcat-* /tomcat
 
 echo "clearing up tomcat"
-rm /tmp/tomcat.tgz
+rm /files/tomcat.tgz
 
 
 rm -rf /tomcat/webapps/docs
