@@ -249,6 +249,8 @@ Check https://your-sub.domain.de/ords APEX is waiting ..
 Dockerfiles are based on and with the influence of:
 - https://github.com/araczkowski/docker-oracle-apex-ords
 - https://github.com/jwilder/nginx-proxy
+- https://github.com/MaikMichel/dockawex
+- https://github.com/paundo/dockawex
 
 Some inspirations are coming from:
 - https://github.com/Dani3lSun/docker-db-apex-dev
